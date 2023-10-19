@@ -1,0 +1,86 @@
+   header{
+    font-size: 6px;
+    font-family:'Press Start 2P';
+    text-align: left;
+    margin-right: 3000px;
+}
+.error{
+   text-align: center; 
+    transform: translate(360px, 140px); /* Mueve el contenido 20px a la derecha y 10px hacia abajo */
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+.bad{
+    font-family: 'Source Code Pro', Arvo, 'Roboto', Chivo Mono ;
+    margin-top: -300px;
+    transform: translate(85px, 60px)
+}
+body{
+    background-color: antiquewhite;
+    
+
+}
+.agujero{
+    font-family: 'Chivo Mono';
+    font-weight: lighter;
+    transform: translate(50px, 100px);
+}
+::-webkit-scrollbar {
+    display: none;
+}
+::selection{
+    background-color: chartreuse;
+    column-gap: #fff;
+}
+
+              
+.float {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    font-size: 16px;
+    animation: pulse 1s infinite alternate;
+    transform: translate(280px, 150px);
+    transition: transform 0.2s;
+}
+
+.float:hover{
+    transform: translate(280px, 150px) translateY(5px); /* Efecto de elevación y traslación */
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #4CAF50;
+    }
+    100% {
+        background-color: #45a049;
+    }
+}
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 18px;
+    }
+
+    .bad {
+        font-size: 16px;
+    }
+
+    .agujero {
+        font-size: 14px;
+    }
+
+    .float {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
