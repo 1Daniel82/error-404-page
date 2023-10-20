@@ -5,6 +5,7 @@
     margin-right: 3000px;
 }
 .error{
+   animation: float 3s ease-out infinite;
    text-align: center; 
     transform: translate(360px, 140px); /* Mueve el contenido 20px a la derecha y 10px hacia abajo */
     max-width: 100%;
